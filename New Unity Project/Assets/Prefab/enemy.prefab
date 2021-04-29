@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 3741028039023962736}
   - component: {fileID: 1390587077039105297}
   - component: {fileID: -8621233572259184967}
+  - component: {fileID: 6425852480584789363}
   m_Layer: 0
   m_Name: enemy
   m_TagString: Enemy
@@ -165,3 +166,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vidas: 5
+--- !u!114 &6425852480584789363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1520513364416052527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cb721a6f15297a4abd851932583ebcd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyPrefab: {fileID: 1520513364416052527}
+  enemyFrecuency: 1
