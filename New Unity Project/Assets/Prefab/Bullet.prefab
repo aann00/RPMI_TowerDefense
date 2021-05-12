@@ -108,7 +108,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletspeed: 0.1
-  enemy: {fileID: 0}
+  enemy: {fileID: 1520513364416052527, guid: ab39ea2ac3c550b4091100b24de87f54, type: 3}
 --- !u!114 &-3148435255206291295
 MonoBehaviour:
   m_ObjectHideFlags: 0

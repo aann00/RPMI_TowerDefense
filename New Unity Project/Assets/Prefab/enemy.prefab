@@ -179,4 +179,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 1520513364416052527}
-  enemyFrecuency: 1
+  enemyFrecuency: 3
