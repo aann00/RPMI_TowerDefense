@@ -97,7 +97,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 8332531348584920401, guid: ad5a119ee93428547bf6058591c4b683,
     type: 3}
-  enemy: {fileID: 1520513364416052527, guid: ab39ea2ac3c550b4091100b24de87f54, type: 3}
+  enemy: {fileID: 0}
   height: 1
   shootFrecuency: 0.5
 --- !u!135 &5537266253688225133
@@ -108,7 +108,7 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5974578608776682450}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 2

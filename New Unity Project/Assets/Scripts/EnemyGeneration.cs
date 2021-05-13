@@ -8,11 +8,6 @@ public class EnemyGeneration : MonoBehaviour
     public float enemyFrecuency;
     private float lastEnemyTime;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
@@ -28,6 +23,10 @@ public class EnemyGeneration : MonoBehaviour
             lastEnemyTime = Time.time;
         }
         
+    }
 
+    private void GenerateEnemyWithInvoke()
+    {
+        Instantiate(enemyPrefab, transform.position, Quaternion.identity);
     }
 }

@@ -5,21 +5,17 @@ using UnityEngine;
 public class EnemyLifes : MonoBehaviour
 {
     public int vidas;
+    public Healthbar healthbar;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if(vidas <= 0)
+        {
+            Destroy(gameObject);
+        }
     }
 
-    private void OnCollisionEnter(Collision collision)
-    {
-       
-    }
+    
 }
